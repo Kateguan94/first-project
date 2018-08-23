@@ -13,11 +13,27 @@
         height: 100%;
     }
 
+    main {
+        height: calc(100vh - 48px);
+        overflow: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
     p {
         padding-left: 15px;
         margin-top: 8px;
     }
 
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 165%;
+        position: relative;
+        right: 8.7vw;
+    }
 
     .imageCircle {
         transition: all 0.2s ease-in-out;
@@ -85,13 +101,12 @@
 </head>
 
 <body>
-    <main style="height: calc(100vh - 48px); overflow: auto;">
-        <!-- <div style="background: linear-gradient(180deg, red 50%, blue 50%); position: absolute; top: 0; left: 0; width: 100vw; height: 100%;"></div> -->
-        <h1 style="text-align: center;">Om mig Yikai Guan </h1>
+    <main>
+        <h1>Om mig Yikai Guan </h1>
         <section style="padding: 0 0 4vw;">
             <div class="imageCircle">
-                <a href="./Om mig sida.html">
-                <img style="display: block; margin: 0 auto; width: 165%; position: relative; right: 8.7vw;" src="https://scontent.fmmx1-1.fna.fbcdn.net/v/t1.0-9/14021647_835642776550945_3618340136576815403_n.jpg?_nc_cat=0&oh=5636313c2ca0c233150f520254fdb371&oe=5BFF70DD" alt="Yikai Guans Bild">
+                <a href="./Om mig sida.html#main">
+                <img src="https://scontent.fmmx1-1.fna.fbcdn.net/v/t1.0-9/14021647_835642776550945_3618340136576815403_n.jpg?_nc_cat=0&oh=5636313c2ca0c233150f520254fdb371&oe=5BFF70DD" alt="Yikai Guans Bild">
                 </a>
             </div>
         </section>

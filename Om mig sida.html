@@ -37,6 +37,7 @@
         overflow: hidden;
         height: 23.5vw;
         position: relative;
+        cursor: pointer;
     }
 
     .heroImage img {
@@ -122,6 +123,12 @@
         border-radius: 27px;
     }
 
+    .images.intressen {
+        width: calc(50vw - 43px);
+        height: 28vw;
+        padding: 10px;
+    }
+
     .aboutMe ul {
         list-style: none;
         display: flex;
@@ -157,9 +164,11 @@
 <body>
     <main>
         <section class="aboutMe">
-            <div class="heroImage">
-                <img src="https://scontent.fmmx1-1.fna.fbcdn.net/v/t1.0-9/39996579_1557078871073995_3911193521217863680_n.jpg?_nc_cat=0&oh=76973096e3c783b1533950f8b0ae9aec&oe=5BFAC50F">
-            </div>
+            <a href="./index.html">
+                <div class="heroImage">
+                    <img src="https://scontent.fmmx1-1.fna.fbcdn.net/v/t1.0-9/39996579_1557078871073995_3911193521217863680_n.jpg?_nc_cat=0&oh=76973096e3c783b1533950f8b0ae9aec&oe=5BFAC50F">
+                </div>
+            </a>
             <ul>
                 <li><a href="#intressen"><b>Intressen</b></a></li>
                 <li><a href="#utbildning"><b>Utbildning</b></a></li>
@@ -204,8 +213,8 @@
                 </div>
         </section>
         <p>Jag tycker om att titta på filmer och läsa böcker. När jag var ung läste jag många böcker. Jag gillar mest fantasi och romantiska filmer och böcker. Den här är min favorite film och bok.</p>
-        <img class="images" style="width:calc(50vw - 43px); height: 28vw; padding: 10px;" src="https://static.filmbuzi.hu/wp-content/uploads//2018/05/guardians-vol1.jpg" alt="Bild av The Guardians of Galaxy">
-        <img class="images" style="width:calc(50vw - 40px); height: 28vw; padding: 10px;" src="https://lh3.googleusercontent.com/MOUv0AU6rZZkFhEzHmoSjmfyKB9AAgM6s33R6MnOaehWcYeNTZS4QP-QKyDFJNvbZP1jFGlLBZJx" alt="Bild av Flipped">
+        <img class="images intressen" src="https://static.filmbuzi.hu/wp-content/uploads//2018/05/guardians-vol1.jpg" alt="Bild av The Guardians of Galaxy">
+        <img class="images intressen" src="https://lh3.googleusercontent.com/MOUv0AU6rZZkFhEzHmoSjmfyKB9AAgM6s33R6MnOaehWcYeNTZS4QP-QKyDFJNvbZP1jFGlLBZJx" alt="Bild av Flipped">
         </article>
         <article id="utbildning">
             <h1>Utbildning</h1>
