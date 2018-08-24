@@ -3,162 +3,7 @@
 
 <head>
     <title>Om Yikai Guan</title>
-    <style>
-    body {
-        font-family: 'Varela Round', sans-serif;
-        color: #000000;
-        margin: 0;
-        height: 100vh;
-        height: 100%;
-        background-color: #f8f8f8;
-    }
-
-    main {
-        height: calc(100vh - 40px);
-        overflow: auto;
-    }
-
-    a {
-        text-decoration: none;
-        color: #77828e;
-    }
-
-    a:hover {
-        border-bottom: 1px solid #b8babd;
-    }
-
-    a:visited {
-        color: #b7bbb4;
-    }
-
-
-    .heroImage {
-        z-index: -1;
-        overflow: hidden;
-        height: 23.5vw;
-        position: relative;
-        cursor: pointer;
-    }
-
-    .heroImage img {
-        width: 100%;
-        position: relative;
-        bottom: 15.3vw;
-    }
-
-    .aboutMeImageWrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .aboutMeImage {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        overflow: hidden;
-    }
-
-    .aboutMeImage img {
-        width: 200px;
-    }
-
-
-    h1 {
-        text-align: center;
-        color: #000000;
-        padding-right: 5px;
-        font-size: 28px;
-    }
-
-    .intro {
-        padding-left: 15px;
-        margin-top: 8px;
-    }
-
-    p {
-        color: grey;
-        font-size: 14px;
-        text-align: center;
-        line-height: 24px;
-        width: 70vw;
-        margin: 0 auto;
-        padding: 23px;
-    }
-
-    .divider {
-        position: relative;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .divider hr {
-        position: absolute;
-        top: 50%;
-        width: 50%;
-        border: 0;
-        margin: 0;
-        border-bottom: 3px solid #d1d1d1;
-    }
-
-    .divider .heartCircle {
-        z-index: 1;
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        overflow: hidden;
-        background-color: silver;
-    }
-
-    .divider svg {
-        position: relative;
-        left: 4px;
-        top: 5px;
-    }
-
-    .images {
-        border-radius: 27px;
-    }
-
-    .images.intressen {
-        width: calc(50vw - 43px);
-        height: 28vw;
-        padding: 10px;
-    }
-
-    .aboutMe ul {
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        padding-left: 0;
-        justify-content: center;
-        border-bottom: 3px solid #f6f1f1;
-        ;
-        padding-top: 7px;
-        padding-bottom: 19px;
-    }
-
-    .aboutMe ul li {
-        text-align: center;
-        width: 150px;
-        margin: 0px 19px;
-    }
-
-    .schoolImage {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    #bottom {
-        text-align: center;
-        height: 20px;
-        padding: 10px 0;
-    }
-    </style>
+    <link rel="stylesheet" href="Om mig stylesheet.css">
 </head>
 
 <body>
@@ -180,7 +25,7 @@
                 </div>
             </div>
             <div class="backgroundImage"></div>
-            <h1>OM MIG</h1>
+            <h1 class="omMigHeader">OM MIG</h1>
             <div class="divider">
                 <hr>
                 <div class="heartCircle">
@@ -202,7 +47,7 @@
         </section>
         <section>
             <article id="intressen">
-                <h1>Intressen</h1>
+                <h1 class="omMigHeader">Intressen</h1>
                 <div class="divider">
                     <hr>
                     <div class="heartCircle">
@@ -217,7 +62,7 @@
         <img class="images intressen" src="https://lh3.googleusercontent.com/MOUv0AU6rZZkFhEzHmoSjmfyKB9AAgM6s33R6MnOaehWcYeNTZS4QP-QKyDFJNvbZP1jFGlLBZJx" alt="Bild av Flipped">
         </article>
         <article id="utbildning">
-            <h1>Utbildning</h1>
+            <h1 class="omMigHeader">Utbildning</h1>
             <div class="divider">
                 <hr>
                 <div class="heartCircle">
@@ -235,7 +80,7 @@
             </div>
         </article>
         <article id="arbetshistoria">
-            <h1>Arbetshistoria</h1>
+            <h1 class="omMigHeader">Arbetshistoria</h1>
             <div class="divider">
                 <hr>
                 <div class="heartCircle">
